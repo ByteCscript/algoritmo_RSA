@@ -1,0 +1,51 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / compilación
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Archivos de entorno
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Cobertura / pruebas
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporales
+*.tmp
+*.temp
+*.swp
+*.swo
